@@ -28,7 +28,6 @@ namespace app
         {
             InitializeComponent();
             Combo_category.ItemsSource = Instance.db.category.ToList();
-            //this.id = id;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
